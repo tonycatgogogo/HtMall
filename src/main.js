@@ -7,10 +7,10 @@ import lazyLoad from 'vue-lazyload'
 import infiniteScroll from  'vue-infinite-scroll'
 Vue.use(lazyLoad,{
   loading:'./static/loading-svg/loading-bars.svg',
-  try:3
-})
-Vue.use(infiniteScroll)
-Vue.config.productionTip = false
+  try:2
+});
+Vue.use(infiniteScroll);
+Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
 new Vue({
@@ -18,4 +18,4 @@ new Vue({
   router,
   components: { App },
   template: '<App/>'
-})
+});
