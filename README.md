@@ -1,6 +1,6 @@
 # imooc
 
-> A Vue.js project
+> A Vue.js project Node Mongodb
 
 ## Build Setup
 
